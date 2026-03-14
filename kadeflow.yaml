@@ -27,8 +27,8 @@ kade:
 
     non_gki:
       source:
-        type: "zip"                # repo | local | zip
-        zip_path: "${GITHUB_WORKSPACE}/kernel.zip"
+        type: "repo"                # repo | local | zip
+        branch: "code"
         zip_strip_root: true
 
       build:
